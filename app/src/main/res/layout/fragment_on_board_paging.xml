@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UI.fragment.onBoard.OnBoardPagingFragment"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="270dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/skip"
+        android:textColor="@color/yellow"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_host"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_gravity="center|top"
+        android:layout_margin="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_one" />
+
+    <TextView
+        android:id="@+id/tv_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="@string/hello"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_to_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/yellow"
+        android:text="@string/start_to_work" />
+</LinearLayout>
