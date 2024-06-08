@@ -2,14 +2,12 @@ package com.example.noteapp.UI.fragment.onBoard
 
 import android.os.Bundle
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.noteapp.R
+import androidx.fragment.app.Fragment
 import com.example.noteapp.UI.adapter.OnBoardViewPagerAdapter
 import com.example.noteapp.databinding.FragmentOnBoardBinding
-
 
 class OnBoardFragment : Fragment() {
     private lateinit var binding: FragmentOnBoardBinding
@@ -27,8 +25,8 @@ class OnBoardFragment : Fragment() {
         try {
             initialize()
             setupListener()
-        } catch (e: Exception) {
-            Log.e("OnBoardFragment", "Error in onViewCreated: ${e.message}", e)
+        } catch (error: Exception) {
+            Log.e("OnBoardFragment", "Error in onViewCreated: ${error.message}", error)
         }
     }
     private fun initialize() {

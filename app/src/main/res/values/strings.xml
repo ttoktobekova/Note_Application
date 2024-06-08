@@ -9,4 +9,9 @@
     <string name="skip">Пропустить</string>
     <string name="welcome">Welcome!</string>
     <string name="start_to_work">Начать Работу</string>
+    <string name="enter_ext">Введите текст</string>
+    <string name="save">Save</string>
+    <string name="text">Text</string>
+    <string name="ios">Ios</string>
+    <string name="Home">Home</string>
 </resources>
