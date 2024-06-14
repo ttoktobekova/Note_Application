@@ -6,4 +6,8 @@
     <color name="white_open">#9AFFFFFF</color>
     <color name="oen_white2">#8DFFFFFF</color>
     <color name="violet">#6A3BBD</color>
+    <color name="gray">#81000000</color>
+    <color name="open_gray">#4B000000</color>
+    <color name="yelloowww">#BEFF9800</color>
+    <color name="bg_noteApp">#CB000000</color>
 </resources>

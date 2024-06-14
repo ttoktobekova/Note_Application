@@ -1,6 +1,7 @@
 package com.example.noteapp.UI.activity
 
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
@@ -21,6 +22,10 @@ class MainActivity : AppCompatActivity() {
         navController = navHostFragment.navController
         binding.bottomNavigation.setupWithNavController(navController)
         setSupportActionBar(binding.toolbar)
+        binding.toolbar.visibility = View.GONE
+
     }
+    fun getOnBord(){}
+
 }
 
