@@ -3,13 +3,13 @@ package com.example.noteapp.UI.utils
 import android.content.Context
 import android.content.SharedPreferences
 
-class PreferenceHelper() {
+class PreferenceHelper {
     private lateinit var sharedPreferences: SharedPreferences
 
-    fun unit(context: Context){
-      sharedPreferences  = context.getSharedPreferences("shared", Context.MODE_PRIVATE)
-
+    fun unit(context: Context) {
+        sharedPreferences = context.getSharedPreferences("shared", Context.MODE_PRIVATE)
     }
+
     var textShared: String?
         get() = sharedPreferences.getString(TEXT, "")
         set(value) {
@@ -27,5 +27,3 @@ class PreferenceHelper() {
         const val ON_BOARD = "ONBOARD"
     }
 }
-
-
