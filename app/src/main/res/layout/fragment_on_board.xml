@@ -17,6 +17,7 @@
         android:layout_gravity="bottom|center"
         android:layout_marginHorizontal="60dp"
         android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/yellow"
         android:text="@string/start_to_work" />
 
 </FrameLayout>
